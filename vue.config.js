@@ -1,6 +1,7 @@
 const path = require('path')
 //配置中默认的选项已经除去,需要配置参考可参阅:https://cli.vuejs.org/zh/config/
 module.exports = {
+  outputDir: path.resolve(__dirname,'docs'),
   // 是一个函数，会接收一个基于 webpack-chain 的 ChainableConfig 实例。允许对内部的 webpack 配置进行更细粒度的修改。
   chainWebpack: config => {
     //eslint+prittier
