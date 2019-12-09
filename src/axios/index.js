@@ -9,7 +9,7 @@ function createInstance(axios) {
   //创建axios实例
   //请求头动态配置
   const instance = axios.create({
-    baseURL: 'http://106.15.91.51/',
+    baseURL: 'http://106.15.91.51/robot',
     // baseURL: 'http://openapi.tuling123.com/openapi/api/v2',
     timeout: 10000, // 超时
     headers: {
